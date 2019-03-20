@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GasStation
 {
-    public partial class Form1 : Form
+    public partial class EditUsers : Form
     {
-        public Form1()
+        public EditUsers()
         {
             InitializeComponent();
+        }
+
+        private void EditUsers_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
